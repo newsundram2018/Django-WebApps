@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Addition</h1>
+<form action="add">
+<table>
+    <tr>
+        <td> Enter First Number</td>
+        <td><input type="text",name="num1"></td>
+    </tr>
+    <tr>
+        <td> Enter Second Number</td>
+        <td><input type="text",name="num2"></td>
+    </tr>
+    <input type="submit" value="Add">
+</table>
+</form>
+
+{% endblock %}
